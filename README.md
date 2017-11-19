@@ -32,9 +32,13 @@ Steps-
 1. Source code checkout
 2. Install all NPM modules mentioned above
 3. Script to run protractor Tests
+
    a. webdriver-manager start
+
    b. protractor conf.js
+
    c. Alternate to step 3 - Add Glup Task to run protractor tests
+   
 4. Upload HTML results to shared artifacts
 
 Problem Statement - 2
@@ -54,6 +58,7 @@ To start running scripts
 
 1. Use postman to run scripts
 2. or Download the collection as JSON Data.
+
    a. Command "newman -c CollectionName.json – H Reports.html"
 
 Results -
@@ -63,8 +68,11 @@ Results -
 CI/CD Pipeline using Bamboo
 
 Steps-
+
 1. Source code checkout
 2. Install all NPM modules mentioned above
 3. Script to run Postman collection Tests
+
    a. newman -c CollectionName.json  -O output.json – H Reports.html
+
 4. Upload HTML results to shared artifacts
