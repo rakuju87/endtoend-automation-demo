@@ -11,7 +11,7 @@ exports.config = {
   framework: 'jasmine2',
   suites: {
     endtoend: './endtoendautomation/*.spec.js',
-    api: './**/*.spec.js'
+    api: './APIautomation/*.spec.js'
   },
   onPrepare: function() {
     //var capabilities = browser.getCapabilities();
