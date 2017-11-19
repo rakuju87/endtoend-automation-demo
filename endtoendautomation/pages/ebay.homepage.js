@@ -1,4 +1,6 @@
+//Homepage page objects and functions
 module.exports = function(){
+
   this.searchInputBox = element(by.id('gh-ac'));
   this.searchButton = element(by.id('gh-btn'));
 
