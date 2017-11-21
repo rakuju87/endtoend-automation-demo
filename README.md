@@ -38,14 +38,16 @@ Steps-
    b. protractor conf.js
 
    c. Alternate to step 3 - Add Glup Task to run protractor tests
-   
+
 4. Upload HTML results to shared artifacts
 
 Problem Statement - 2
+Spotify is the leading music playing app.
+Tests to search user information, featured-playlists, new releases, categories, single category and playlists
 
-AWS is a cloud infrastructure that supports lots of business around the world.
-The test consists in using the AWS APIs to create an EC2 instance, test if the instance has
-been created correctly and cleanup it after having run the test.
+Authentication - OAuth2.0
+
+Update the Access token before running
 
 Solution -
 We would be using Postman for easy managing of all requests and test scripts
@@ -59,11 +61,12 @@ To start running scripts
 1. Use postman to run scripts
 2. or Download the collection as JSON Data.
 
-   a. Command "newman -c CollectionName.json – H Reports.html"
+   a. Command "newman run APIautomation/Spotify.postman_collection -r html,junit --reporter-html-export Reports/API/Spotify.html --reporter-junit-export Reports/API/Spotify.xml"
 
 Results -
 
-1. Reports.html in the same Directory
+1. Spotify.html
+2. JUnit.xml
 
 CI/CD Pipeline using Bamboo
 
@@ -73,6 +76,6 @@ Steps-
 2. Install all NPM modules mentioned above
 3. Script to run Postman collection Tests
 
-   a. newman -c CollectionName.json  -O output.json – H Reports.html
+   a. "newman run APIautomation/Spotify.postman_collection -r html,junit --reporter-html-export Reports/API/Spotify.html --reporter-junit-export Reports/API/Spotify.xml"
 
-4. Upload HTML results to shared artifacts
+4. Upload HTML results to shared artifacts and Junit xml for bamboo resulting
