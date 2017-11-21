@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Spotify" time="2.482">
+  <testsuite name="Spotify-API-Me" id="c11bcf12-28ad-45d4-8142-e4057cf84632" tests="0" time="1.144"/>
+  <testsuite name="Spotify-API-featured-playlists" id="c45cb0d7-b250-439e-91a2-2fd7fd1adbac" tests="0" time="0.484"/>
+  <testsuite name="Spotify-API-new-releases" id="de21e7d8-27e6-4b93-b72d-3495e954b132" tests="0" time="0.179"/>
+  <testsuite name="Spotify-API-Categories" id="5734e591-9700-4ce2-8fd5-06ef15e65be0" tests="0" time="0.275"/>
+  <testsuite name="Spotify-API-single-category" id="a67bc68c-a51b-4072-8b50-cc60ceace6a9" tests="0" time="0.196"/>
+  <testsuite name="Spotify-API-Spotify playlists" id="1a958ae5-532a-40e5-bf99-bbafc22df5b6" tests="0" time="0.204"/>
+</testsuites>

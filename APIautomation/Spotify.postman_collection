@@ -1,0 +1,235 @@
+{
+	"id": "bf2917c6-4506-5e51-3c2e-bec6eb7e74b1",
+	"name": "Spotify",
+	"description": "",
+	"order": [
+		"92635676-4551-36f0-5c0e-2bd3b427d041",
+		"d2265b03-231b-ef6f-1882-c565b8f65381",
+		"8c6d711a-7de7-36e7-f68a-2ea077536e3a",
+		"f0f6e36f-1937-efd6-eb94-5f82a557cce6",
+		"56b70fef-df95-b5fa-444d-5013eb48d837",
+		"7e35b717-2e0d-7609-a08f-77877189f4a5"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1511070499767,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "56b70fef-df95-b5fa-444d-5013eb48d837",
+			"headers": "",
+			"headerData": [],
+			"url": "https://api.spotify.com/v1/browse/categories/party?access_token=BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1511246734206,
+			"name": "Spotify-API-single-category",
+			"description": "Get a single category used to tag items in Spotify (on, for example, the Spotify player’s “Browse” tab).",
+			"collectionId": "bf2917c6-4506-5e51-3c2e-bec6eb7e74b1",
+			"responses": []
+		},
+		{
+			"id": "7e35b717-2e0d-7609-a08f-77877189f4a5",
+			"headers": "",
+			"headerData": [],
+			"url": "https://api.spotify.com/v1/browse/categories/party/playlists?country=AU&limit=2&access_token=BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+			"queryParams": [
+				{
+					"key": "country",
+					"value": "AU",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "access_token",
+					"value": "BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1511246751694,
+			"name": "Spotify-API-Spotify playlists",
+			"description": "Get a list of Spotify playlists tagged with a particular category.",
+			"collectionId": "bf2917c6-4506-5e51-3c2e-bec6eb7e74b1",
+			"responses": []
+		},
+		{
+			"id": "8c6d711a-7de7-36e7-f68a-2ea077536e3a",
+			"headers": "",
+			"headerData": [],
+			"url": "https://api.spotify.com/v1/browse/new-releases?country=AU&access_token=BQCtN35cj4A0ZrrEWMBKKMdSju4kTN8fa_qOeTQ2K5LVj69dmuDHZznXL_IrKBaidLu3yQOupbKn_LHSnQbjCJ9irZemEw66iEEt9TffbHMcBQtfDU_yotGx7cOsiPWDH5bf-XkQ",
+			"queryParams": [
+				{
+					"key": "country",
+					"value": "AU",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "access_token",
+					"value": "BQCtN35cj4A0ZrrEWMBKKMdSju4kTN8fa_qOeTQ2K5LVj69dmuDHZznXL_IrKBaidLu3yQOupbKn_LHSnQbjCJ9irZemEw66iEEt9TffbHMcBQtfDU_yotGx7cOsiPWDH5bf-XkQ",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1511246600379,
+			"name": "Spotify-API-new-releases",
+			"description": "Get a list of new album releases featured in Spotify (shown, for example, on a Spotify player’s “Browse” tab).",
+			"collectionId": "bf2917c6-4506-5e51-3c2e-bec6eb7e74b1",
+			"responses": []
+		},
+		{
+			"id": "92635676-4551-36f0-5c0e-2bd3b427d041",
+			"headers": "",
+			"headerData": [],
+			"url": "https://api.spotify.com/v1/me?access_token=BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1511246809690,
+			"name": "Spotify-API-Me",
+			"description": "Get detailed profile information about the current user (including the current user’s username).",
+			"collectionId": "bf2917c6-4506-5e51-3c2e-bec6eb7e74b1",
+			"responses": []
+		},
+		{
+			"id": "d2265b03-231b-ef6f-1882-c565b8f65381",
+			"headers": "",
+			"headerData": [],
+			"url": "https://api.spotify.com/v1/browse/featured-playlists?country=AU&limit=2&access_token=BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+			"queryParams": [
+				{
+					"key": "country",
+					"value": "AU",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "limit",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "access_token",
+					"value": "BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1511246718270,
+			"name": "Spotify-API-featured-playlists",
+			"description": "Get a list of Spotify featured playlists (shown, for example, on a Spotify player’s “Browse” tab).",
+			"collectionId": "bf2917c6-4506-5e51-3c2e-bec6eb7e74b1",
+			"responses": []
+		},
+		{
+			"id": "f0f6e36f-1937-efd6-eb94-5f82a557cce6",
+			"headers": "",
+			"headerData": [],
+			"url": "https://api.spotify.com/v1/browse/categories?access_token=BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+			"queryParams": [
+				{
+					"key": "access_token",
+					"value": "BQBYZmBtfY4OvHyL02QA6fs_0lF2xQi4NZaznQmDUh20Y3Ugfc5TA0FgMPcYQtZlKND0cCrdtM65sSk7eRq3R6TJbLPNzbtQNT4VjrsvTiY-uRWrZ_cd2prDKhXbL2uJGwHn9dMy",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1511246726670,
+			"name": "Spotify-API-Categories",
+			"description": "Get a list of categories used to tag items in Spotify (on, for example, the Spotify player’s “Browse” tab).",
+			"collectionId": "bf2917c6-4506-5e51-3c2e-bec6eb7e74b1",
+			"responses": []
+		}
+	]
+}
