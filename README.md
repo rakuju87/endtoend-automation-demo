@@ -55,7 +55,7 @@ We would be using Postman for easy managing of all requests and test scripts
 Required NPM modules -
 
 1. newman
-2. newman-html-reporter
+2. newman-reporter-html
 
 To start running scripts
 
